@@ -1,5 +1,7 @@
 body {
   background-color: beige;
+  color: black;
+  font-weight: bolder;
   font-family: monospace;
 }
 
@@ -8,9 +10,48 @@ img {
   display: block;
   margin: auto;
   width: 50%;
+>>>>>>> master
 }
 
 .panda_pic {
   height: 300px;
   width: 450px;
+}
+
+.web-head {
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: beige;
+  display: inline-block;
+  padding: 0 10px;
+}
+li {
+  display: inline;
+}
+
+h1 a {
+  text-decoration: none;
+  color: beige;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: beige;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+ul {
+  float: right;
+}
+
+h1 {
+  display: inline;
+  pa
 }
