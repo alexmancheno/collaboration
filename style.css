@@ -1,5 +1,5 @@
 body {
-  background-color: beige;
+  background-image: url(lake.jpg);
   color: black;
   font-weight: bolder;
   font-family: monospace;
@@ -10,7 +10,6 @@ img {
   display: block;
   margin: auto;
   width: 50%;
->>>>>>> master
 }
 
 .panda_pic {
