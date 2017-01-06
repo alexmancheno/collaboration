@@ -8,13 +8,14 @@ body {
 
 img {
   text-align: center;
-  display: block;
+  display: inline-block;
   margin: auto;
   width: 50%;
 
 }
 
 .panda_pic {
+  display: inline-block;
   height: 300px;
   width: 450px;
 }
@@ -22,6 +23,16 @@ img {
 .web-head {
   /*background-color: black;*/
   padding: 10px 10px 10px 10px;
+}
+
+.fb_icon {
+  height: 50px;
+  width: 50px;
+  float: right;
+}
+
+.panda {
+  display:inline-block;
 }
 
 h1 a {
