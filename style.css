@@ -1,23 +1,33 @@
-body {
+@media all and (max-width: 1440px) and (min-width: 320px) {
+  body {
   background-image: url(Pics/lake.jpg);
   color: white;
   font-weight: bolder;
   font-family: Arial;
   background-size: cover;
 }
+}
 
 img {
   text-align: center;
   display: inline-block;
-  margin: auto;
+  margin: 0 auto;
   width: 50%;
-
 }
 
+@media all and (max-width: 1440px) and (min-width: 320px) {
 .panda_pic {
   display: inline-block;
   height: 300px;
   width: 450px;
+}
+}
+
+@media all and (max-width: 1440px) and (min-width: 320px) {
+.panda_baby {
+  height: 300px;
+  width: 450px;
+}
 }
 
 .web-head {
@@ -53,7 +63,8 @@ h1 a {
   text-decoration: none;
   color: beige;
   display: inline-block;
-  padding: 0 10px;
+  padding-left: 0px 10px;
+  background-color: black;
 }
 
 ul li a {
@@ -62,10 +73,12 @@ ul li a {
   display: inline-block;
   padding: 0 10px;
 }
-/*
-h2 {
-  color: beige;
-}*/
+
+@media all and (max-width: 1440px) and (min-width: 320px) {
+.header ul li {
+  margin: 0 auto;
+}
+}
 
 ul {
   float: right;
@@ -73,5 +86,4 @@ ul {
 
 h1 {
   display: inline;
-  pa
 }
